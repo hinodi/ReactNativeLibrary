@@ -49,6 +49,12 @@ npm install react-native-fast-image --save
 react-native link react-native-fast-image
 ```
 
+## react-native-image-picker
+```bash
+npm install react-native-image-picker@latest --save
+react-native link react-native-image-picker
+```
+
 ## react-native-action-button
 ```bash
 npm i react-native-action-button --save
@@ -57,6 +63,11 @@ npm i react-native-action-button --save
 ## react-native-circular-action-menu
 ```bash
 npm i react-native-circular-action-menu --save
+```
+
+## react-native-textinput-effects
+```bash
+npm i react-native-textinput-effects --save
 ```
 
 ## react-native-color-picker
@@ -71,3 +82,9 @@ npm install react-native-color-picker --save
 
 ## react-native-maps
 [react-native-maps](https://github.com/react-community/react-native-maps)
+
+## react-native-camera
+[react-native-camera](https://github.com/react-native-community/react-native-camera)
+
+## react-native-material-design
+[react-native-material-design](https://github.com/react-native-material-design/react-native-material-design)
