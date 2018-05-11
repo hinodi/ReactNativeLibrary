@@ -1,5 +1,29 @@
 # ReactNativeLibrary
 
+## react-redux
+### Installation
+```bash
+npm install --save react-redux
+```
+
+## redux
+### Installation
+```bash
+npm install --save redux
+```
+
+## react-navigation
+### Installation
+```bash
+npm install --save react-navigation
+```
+
+## react-native-tab-view
+### Installation
+```bash
+npm install react-native-tab-view --save
+```
+
 ## react-native-vector-icons
 ### Installation
 ```bash
