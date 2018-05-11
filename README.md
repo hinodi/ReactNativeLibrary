@@ -26,7 +26,12 @@ npm install react-native-tab-view --save
 npm install react-native-vector-icons --save
 react-native link react-native-vector-icons
 ```
-###[list icon](https://oblador.github.io/react-native-vector-icons/)
+[list icon](https://oblador.github.io/react-native-vector-icons/)
+
+## socket.io-client
+```bash
+npm install socket.io-client --save
+```
 
 ## react-native-linear-gradient
 ```bash
@@ -59,10 +64,10 @@ npm i react-native-circular-action-menu --save
 npm install react-native-color-picker --save
 ```
 ## react-native-splash-screen
-###[link](https://github.com/crazycodeboy/react-native-splash-screen)
+[react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
 
 ## react-native-snap-carousel
-###[link](https://github.com/archriss/react-native-snap-carousel)
+[react-native-snap-carousel](https://github.com/archriss/react-native-snap-carousel)
 
 ## react-native-maps
-###[link](https://github.com/react-community/react-native-maps)
+[react-native-maps](https://github.com/react-community/react-native-maps)
