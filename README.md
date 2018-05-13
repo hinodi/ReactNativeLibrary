@@ -74,6 +74,13 @@ npm i react-native-textinput-effects --save
 ```bash
 npm install react-native-color-picker --save
 ```
+
+## react-native-sound
+```bash
+npm install react-native-sound --save 
+react-native link react-native-sound
+```
+
 ## react-native-splash-screen
 [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
 
