@@ -84,6 +84,8 @@ react-native link react-native-facebook-account-kit
   <application>
 
       ...
+      android:allowBackup="true" -> android:allowBackup="true"
+      ...
       <meta-data
           android:name="com.facebook.sdk.ApplicationId"
           android:value="@string/fb_app_id" />
