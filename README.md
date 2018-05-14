@@ -40,6 +40,74 @@ react-native link react-native-fbsdk
 ```
 [config library](https://github.com/facebook/react-native-fbsdk)
 
+## react-native-facebook-account-kit
+```bash
+npm install --save react-native-facebook-account-kit
+react-native link react-native-facebook-account-kit
+```
+### For IOS
+- Copy `AccountKit.framework` and `AccountKitStrings.bundle` to your project in ios folder
+- In xcode, right click -> Add File to "your project" and select 2 files above, remember select the "Copy items if needed" option.
+- Add your Facebook credentials to your project's `Info.plist` file
+  ```xml
+      <plist version="1.0">
+        <dict>
+          ...
+          <key>FacebookAppID</key>
+          <string>{your-app-id}</string>
+          <key>AccountKitClientToken</key>
+          <string>{your-account-kit-client-token}</string>
+          <key>CFBundleURLTypes</key>
+          <array>
+            <dict>
+              <key>CFBundleURLSchemes</key>
+              <array>
+                <string>ak{your-app-id}</string>
+              </array>
+            </dict>
+          </array>
+          ...
+        </dict>
+      </plist>
+  ```
+### For Android
+- In `android/app/src/main/res/values/strings.xml`
+   ```xml
+   ...
+   <string name="fb_app_id">YOUR_FACEBOOK_APP_ID</string>
+   <string name="ak_client_token">YOUR_CLIENT_TOKEN</string>
+   ```
+
+- In `android/app/src/main/AndroidManifest.xml`
+  ```xml
+  ...
+  <application>
+
+      ...
+      <meta-data
+          android:name="com.facebook.sdk.ApplicationId"
+          android:value="@string/fb_app_id" />
+      <meta-data
+          android:name="com.facebook.accountkit.ApplicationName"
+          android:value="@string/app_name" />
+      <meta-data
+          android:name="com.facebook.accountkit.ClientToken"
+          android:value="@string/ak_client_token" />
+   </application>
+   ...
+   ```
+
+3. Check the `RNAccountKitPackage` is registered in your `MainApplication.java` file. This should be done by `react-native link` but sometimes it doesn't. You should see something like the following
+  ```java
+  @Override
+  protected List<ReactPackage> getPackages() {
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+          new RNAccountKitPackage() // <-- the package is registered
+      );
+  }
+  ```
+
 ## react-native-linear-gradient
 ```bash
 npm install react-native-linear-gradient --save
