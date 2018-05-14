@@ -84,7 +84,7 @@ react-native link react-native-facebook-account-kit
   <application>
 
       ...
-      //android:allowBackup="true"
+      android:allowBackup="false"
       android:allowBackup="true"
   
       <meta-data
