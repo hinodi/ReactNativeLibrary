@@ -33,6 +33,13 @@ react-native link react-native-vector-icons
 npm install socket.io-client --save
 ```
 
+## react-native-fbsdk
+```bash
+react-native install react-native-fbsdk
+react-native link react-native-fbsdk
+```
+[config library](https://github.com/facebook/react-native-fbsdk)
+
 ## react-native-linear-gradient
 ```bash
 npm install react-native-linear-gradient --save
