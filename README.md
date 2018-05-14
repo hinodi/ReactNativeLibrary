@@ -97,7 +97,7 @@ react-native link react-native-facebook-account-kit
    ...
    ```
 
-3. Check the `RNAccountKitPackage` is registered in your `MainApplication.java` file. This should be done by `react-native link` but sometimes it doesn't. You should see something like the following
+- Check the `RNAccountKitPackage` is registered in your `MainApplication.java` file. This should be done by `react-native link` but sometimes it doesn't. You should see something like the following
   ```java
   @Override
   protected List<ReactPackage> getPackages() {
