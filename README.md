@@ -109,12 +109,19 @@ react-native link react-native-facebook-account-kit
       );
   }
   ```
+  
+## react-native-gifted-chat
+[react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
+```bash
+npm install react-native-gifted-chat --save
+```
 
 ## react-native-linear-gradient
 ```bash
 npm install react-native-linear-gradient --save
 react-native link react-native-linear-gradient
 ```
+
 ## react-native-swiper
 ```bash
 npm install react-native-swiper --save
