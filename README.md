@@ -165,6 +165,13 @@ npm install react-native-sound --save
 react-native link react-native-sound
 ```
 
+## react-native-popup-menu
+[react-native-popup-menu](https://github.com/instea/react-native-popup-menu)
+```bash
+npm install react-native-popup-menu --save
+```
+
+
 ## react-native-splash-screen
 [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
 
